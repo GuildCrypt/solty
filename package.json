@@ -1,0 +1,28 @@
+{
+  "name": "solty",
+  "version": "0.0.0",
+  "description": "Solidity Types for Node",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node bin/generate-soltys && tsc && mocha -bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuildCrypt/solty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuildCrypt/solty/issues"
+  },
+  "homepage": "https://github.com/GuildCrypt/solty#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "fs-extra": "^8.0.1",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.1"
+  }
+}
