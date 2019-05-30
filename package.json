@@ -1,6 +1,6 @@
 {
   "name": "solty",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Solidity Types for Node",
   "main": "index.js",
   "directories": {
