@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node bin/generate-soltys && tsc && mocha -bail"
+    "test": "node bin/generate-soltys && rm -rf js/* && tsc && mocha -bail"
   },
   "repository": {
     "type": "git",
